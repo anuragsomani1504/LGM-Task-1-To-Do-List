@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    background-image: url("img2.jpg");
+    background-size: cover;
+}
+
+#header {
+    margin-top: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+    color: rgb(58, 58, 58);
+}
+
+#taskbar {    
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+    display: flex;
+     
+}
+
+#textBox {
+    margin: 0;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    background-color: transparent;
+    
+}
+
+#addButton {   
+    padding: 10px;
+    width: 25%;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#addButton:hover {
+    color:rgb(232, 244, 255);
+    background-color: #333;
+}
+
+#wrapper {
+    margin: auto;
+    margin-top:25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 62%;
+    min-height: 500px;
+    padding: 10px;
+}
+
+#tasks {
+    /* margin: auto; */
+    width: 100%;
+    border: 10px;
+    border-color: red;
+    /* border-collapse: collapse; */
+}
+
+tr {
+    border: 0;
+    background-color: rgb(232, 244, 255);
+}
+
+td {
+    border-radius: 15px;
+    user-select: none;
+    
+}
+
+.checked_task {
+    background-color: rgb(129, 207, 129);
+    padding-left: 25px;
+}
+
+.unchecked_task {
+    padding-left: 25px;
+}
+
+.close {
+    width: 10%;
+    text-align: center;
+    color: rgb(200, 0, 0);
+    padding: 5px 10px 5px 10px;
+    background-color: #999;
+}
+
+.close:hover {
+    cursor: pointer;
+    background-color: rgb(200, 0, 0);
+    color: rgb(232, 244, 255);
+}
+::placeholder{
+    color: black;
+}
